@@ -1,3 +1,3 @@
 <?php
-$a = file_get_contents("reddit.com");
+$a = fopen("reddit.com");
 echo $a;
