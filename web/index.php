@@ -1,3 +1,5 @@
 <?php
-$a = fopen("reddit.com");
-echo $a;
+
+$homepage = file_get_contents("http://reddit.com/");
+echo $homepage;
+
