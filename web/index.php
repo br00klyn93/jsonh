@@ -1,3 +1,7 @@
+ <?php
+ header("Access-Control-Allow-Origin: *");
+?>
+
 [
     {
         "userId": 1,
